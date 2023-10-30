@@ -1,0 +1,88 @@
+*{
+    font-family: Open Sauce Sans;
+}
+.padding1{
+    padding: 90px 0;
+}
+.padding2{
+    padding: 0 32px;
+}
+.footer-padding{
+    padding: 64px, 0px, 48px, 0px;
+}
+.getInTouch{
+    background: #481F82;
+}
+.inTouch h1{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: 0em;
+}
+.inTouch-link{
+    color: #D9C1F9;
+    text-decoration: none;
+}
+.arrowUpRight{
+    font-size: 80px;
+}
+footer{
+    background: #371863;
+}
+.footer-link{
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 24px;
+    transition: all ease 0.3s;
+}
+.footer-link:active,
+.footer-link:hover,
+.footer-link:focus
+{
+    color: #5D28A8;
+}
+
+.newsletter-heading{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#email:focus,
+#email:active,
+#email:hover{
+    box-shadow: none;
+    outline: none;
+}
+
+#email::placeholder{
+    font-size: 15px;
+}
+
+.newsletter-btn{
+    background-color: #7F56D9;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+.newsletter-btn:hover{
+    background-color: #481F82;
+    color: #FFFFFF;
+}
+.copyright, .TCs{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #D6BBFB;
+}
+.TCs{
+    text-decoration: none;
+}

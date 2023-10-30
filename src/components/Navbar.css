@@ -1,0 +1,42 @@
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.nav-toggler,
+.nav-toggler:focus,
+.nav-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.navbar-toggler-icon{
+    color: #000000;
+}
+.nav-link{
+    font-family: Open Sauce Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+}
+.nav-link:active,
+.nav-link:hover,
+.nav-link:focus
+{
+    color: #5D28A8;
+    font-weight: 600;
+}
+.navbar-icons{
+    font-size: 24px;
+    font-weight: 300;
+    color: #5D28A8;
+}
+
+.navbar-icons:active,
+.navbar-icons:hover,
+.navbar-icons:focus
+{
+    color: #5D28A8;
+    font-weight: 400;
+}
