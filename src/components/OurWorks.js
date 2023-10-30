@@ -26,12 +26,12 @@ const OurWorks = () => {
           </ol>
         </nav>
 
-        <section className='padding1'>
+        <div className='padding1'>
           <div className='row'>
             <div className='col-md-6'>
               <div className='product-box1'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -48,7 +48,7 @@ const OurWorks = () => {
 
               <div className='product-box2'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -64,7 +64,7 @@ const OurWorks = () => {
 
               <div className='product-box3'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -82,7 +82,7 @@ const OurWorks = () => {
             <div className='col-md-6'>
               <div className='product-box4'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -98,7 +98,7 @@ const OurWorks = () => {
 
               <div className='product-box5'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -114,7 +114,7 @@ const OurWorks = () => {
 
               <div className='product-box6'>
                 <div className='product-img'>
-                  <img src='assets/image3.png' alt='image' className='img-fluid' />
+                  <img src='assets/image3.png' alt='image3' className='img-fluid' />
                 </div>
 
                 <div className='product-details pt-5'>
@@ -129,7 +129,7 @@ const OurWorks = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
         <Pagination />
       </div>            

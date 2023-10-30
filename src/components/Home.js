@@ -258,7 +258,7 @@ const Home = () => {
         <div className="row pt-5">          
           <div className="col-lg-6">             
             <div>
-              <img src='assets/image3.png' alt='image' className='img-fluid' />
+              <img src='assets/image3.png' alt='image3' className='img-fluid' />
             </div>
             
             <div>
@@ -269,7 +269,7 @@ const Home = () => {
 
           <div className="col-lg-6">
             <div>
-              <img src='assets/image3.png' alt='image' className='img-fluid' />
+              <img src='assets/image3.png' alt='image3' className='img-fluid' />
             </div>
               
             <div>
@@ -304,7 +304,7 @@ const Home = () => {
                     <div className='col-lg-5 mb-3'>
                       <div className='client'>
                         <div className='client-img'>
-                          <img src='assets/Avatar.png' alt='avatar' />
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
                         </div>
                         <p className='client-name'>Kelly Williams</p>
                         <p className='client-position'>Head of Design, Layers</p>
@@ -333,7 +333,7 @@ const Home = () => {
                     <div className='col-lg-5 mb-3'>
                       <div className='client'>
                         <div className='client-img'>
-                          <img src='assets/Avatar.png' alt='avatar' />
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
                         </div>
                         <p className='client-name'>Kelly Williams</p>
                         <p className='client-position'>Head of Design, Layers</p>
@@ -362,7 +362,7 @@ const Home = () => {
                     <div className='col-lg-5 mb-3'>
                       <div className='client'>
                         <div className='client-img mb-3'>
-                          <img src='assets/Avatar.png' alt='avatar' />
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
                         </div>
                         <p className='client-name'>Kelly Williams</p>
                         <p className='client-position'>Head of Design, Layers</p>
