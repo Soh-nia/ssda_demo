@@ -42,7 +42,7 @@ const Team = () => {
 
                     <div className="col">
                         <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                        <div class="mt-5 p-5">
+                        <div className="mt-5 p-5">
                             <div className='attribution-card p-2 mt-5'>
                             <p className='name'>Dianne Russell</p>
                             <p className='role'>Product Manager</p>

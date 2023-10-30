@@ -57,7 +57,7 @@ const ProjectCalc = () => {
             </p>
             <div className='container'>
               <div className='padding2 py-3'>
-                <img src='assets/image5.png' alt='image' className='img-fluid' />
+                <img src='assets/image5.png' alt='image5' className='img-fluid' />
               </div>              
             </div>
             <p className='projectContent'>
