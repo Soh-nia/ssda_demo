@@ -7,7 +7,7 @@ const AboutSection = () => {
     <>
         <section className='d-padding1 container'>
             <div className="row">
-                <div className="col-12 col-lg-6">
+                <div className="col-12 col-lg-6 h-100">
                     <div className='heading-container'>
                         <p className='sub-heading'>ABOUT US</p>
                         <div>
@@ -23,11 +23,16 @@ const AboutSection = () => {
                         </div>
 
                         <div className='content-text'>
-                            <p>WMi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam</p>
-                            <p>Tellus aliquam enim urna, etiam. Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue 
-                            enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.
+                            <p>We prioritize staying ahead in the tech world through ongoing learning and adaptation, 
+                                ensuring our clients benefit from cutting-edge software development. Quality is paramount, 
+                                and we rigorously test our software for flawless, user-friendly, and superior performance.
                             </p>
-                            <p>WMi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam</p>
+                            <p>
+                                At Sirleaf, we are dedicated to excellence and innovation. Our team comprises of seasoned developers,
+                                designers, and project managers that can bring your digital vision to life across various industries.
+                                We know what it takes to turn your vision into reality. 
+                                From small startups to large enterprises, we have the flexibility to scale our services to your needs.
+                            </p>                         
                         </div>
                     </div>
 
@@ -43,9 +48,9 @@ const AboutSection = () => {
 
                 </div>
 
-                <div className="col-lg-6 p-5">
+                <div className="col-12 col-lg-6 p-5 h-100">
                     <div className='content-image'>
-                    <img src='assets/image2.png' alt='content' className='img-fluid' />
+                        <img src='assets/image2.png' alt='content' className='img-fluid' />
                     </div>      
                 </div>
             </div>

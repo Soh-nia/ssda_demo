@@ -11,8 +11,8 @@ const CalculatorSelectService = () => {
             <div className='py-5'>
                 <form>
                     <div className="mb-3 bg3 py-3">
-                        <div className="m-3 form-checks">
-                            <input className="form-check-input" type="radio" name="service1" id="service1" value="option1" />
+                        <div className="m-3 form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="service" id="service1" />
                             <label className="form-check-label d-flex flex-column" htmlFor="service1">
                                 <p className='mb-0 checkbox-text1'>Entire Project</p>
                                 <p className='mt-1 checkbox-text2'>From Design and Development to Deployment and User Experience</p>
@@ -21,8 +21,8 @@ const CalculatorSelectService = () => {
                     </div> 
 
                     <div className="mb-3 bg3 py-3">
-                        <div className="m-3 form-checks">
-                            <input className="form-check-input" type="radio" name="service2" id="service2" value="option2" />
+                        <div className="m-3 form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="service" id="service2" />
                             <label className="form-check-label d-flex flex-column" htmlFor="service2">
                                 <p className='mb-0 checkbox-text1'>Web Development</p>
                                 <p className='mt-1 checkbox-text2'>
@@ -33,8 +33,8 @@ const CalculatorSelectService = () => {
                     </div> 
 
                     <div className="mb-3 bg3 py-3">
-                        <div className="m-3 form-checks">
-                            <input className="form-check-input" type="radio" name="service3" id="service3" value="option3" />
+                        <div className="m-3 form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="service" id="service3" />
                             <label className="form-check-label d-flex flex-column" htmlFor="service3">
                                 <p className='mb-0 checkbox-text1'>Mobile App Development</p>
                                 <p className='mt-1 checkbox-text2'>
@@ -45,8 +45,8 @@ const CalculatorSelectService = () => {
                     </div> 
 
                     <div className="mb-3 bg3 py-3">
-                        <div className="my-3 form-checks mx-2">
-                            <input className="form-check-input" type="radio" name="service4" id="service4" value="option4" />
+                        <div className="my-3 form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="service" id="service4" />
                             <label className="form-check-label d-flex flex-column" htmlFor="service4">
                                 <p className='mb-0 checkbox-text1'>UI/UX Design</p>
                                 <p className='mt-1 checkbox-text2'>
@@ -57,9 +57,9 @@ const CalculatorSelectService = () => {
                     </div>                    
                     
 
-                <div className='d-flex justify-content-end'>
-                    <Link to="/calculatorStatusProject" className="btn next-btn rounded-0">Next</Link>
-                </div>
+                    <div className='d-flex justify-content-end'>
+                        <Link to="/calculatorStatusProject" className="btn next-btn rounded-0">Next</Link>
+                    </div>
 
                 </form>
             </div>

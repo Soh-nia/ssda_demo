@@ -77,30 +77,21 @@ const Home = () => {
               <div className='col-md-4'>
                 <div>
                   <p className='metric1'>400+</p>
-                  <p className='metric2'>Projects completed</p>
-                  <Link to='/' className='d-none d-lg-block metric-link'>Learn more
-                    <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  <p className='metric2'>Projects completed</p>                  
                 </div>
               </div>
 
               <div className='col-md-4'>
                 <div>
                   <p className='metric1'>600%</p>
-                  <p className='metric2'>Return on investment</p>
-                  <Link to='' className='d-none d-lg-block metric-link'>Learn more
-                    <BsArrowRightShort className='metric-icon' />
-                  </Link>
+                  <p className='metric2'>Return on investment</p>                  
                 </div>
               </div>
 
               <div className='col-md-4'>
                 <div>
                   <p className='metric1'>10k</p>
-                  <p className='metric2'>Global downloads</p>
-                  <Link to='/' className='d-none d-lg-block metric-link'>Learn more
-                    <BsArrowRightShort className='metric-icon' />
-                  </Link>
+                  <p className='metric2'>Global downloads</p>                  
                 </div>
               </div>
             </div>
@@ -257,25 +248,30 @@ const Home = () => {
 
         <div className="row pt-5">          
           <div className="col-lg-6">             
-            <div>
-              <img src='assets/image3.png' alt='image3' className='img-fluid' />
-            </div>
-            
-            <div>
-              <p className='application-design'>Application Design 1</p>
-              <p className='ux-design'>UI/UX Design</p>
-            </div>              
+            <Link to="/ourWorks" className='link'>
+              <div>
+                <img src='assets/image3.png' alt='image3' className='img-fluid' />
+              </div>
+                
+              <div>
+                <p className='application-design'>Application Design 1</p>
+                <p className='ux-design'>UI/UX Design</p>
+              </div> 
+            </Link>
           </div>
 
           <div className="col-lg-6">
-            <div>
-              <img src='assets/image3.png' alt='image3' className='img-fluid' />
-            </div>
-              
-            <div>
-              <p className='application-design'>Application Design 2</p>
-              <p className='ui/ux-design'>UI/UX Design</p>
-            </div>  
+            <Link to="/ourWorks" className='link'>
+              <div>
+                <img src='assets/image3.png' alt='image3' className='img-fluid' />
+              </div>
+                
+              <div>
+                <p className='application-design'>Application Design 2</p>
+                <p className='ux-design'>UI/UX Design</p>
+              </div> 
+            </Link>
+             
           </div>
         </div>
       </div>
@@ -335,7 +331,7 @@ const Home = () => {
                         <div className='client-img'>
                           <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
                         </div>
-                        <p className='client-name'>Kelly Williams</p>
+                        <p className='client-name'>Jenny Henry</p>
                         <p className='client-position'>Head of Design, Layers</p>
                         <div className='stars'>
                           <AiFillStar />
@@ -349,9 +345,9 @@ const Home = () => {
 
                     <div className='col-lg-7'>
                       <p className='client-quote'>
-                        The Sirleaf team played a pivotal role in launching our startup. 
-                        Their guidance, technical excellence, and commitment to our vision 
-                        were instrumental in our success. We couldn't be happier with the results
+                        Sirleaf is our go-to software partner. They consistently deliver top-quality solutions 
+                        on time and within budget. Their commitment to excellence and collaborative approach 
+                        make them a trusted extension of our team. Highly recommended!"
                       </p>
                     </div>
                   </div>
@@ -364,7 +360,7 @@ const Home = () => {
                         <div className='client-img mb-3'>
                           <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
                         </div>
-                        <p className='client-name'>Kelly Williams</p>
+                        <p className='client-name'>Pere James</p>
                         <p className='client-position'>Head of Design, Layers</p>
                         <div className='stars'>
                           <AiFillStar />
@@ -378,9 +374,9 @@ const Home = () => {
 
                     <div className='col-lg-7'>
                       <p className='client-quote'>
-                        The Sirleaf team played a pivotal role in launching our startup. 
-                        Their guidance, technical excellence, and commitment to our vision 
-                        were instrumental in our success. We couldn't be happier with the results
+                        Working with Sirleaf was a game-changer for our business. Their expert team brought 
+                        our app concept to life, exceeding our expectations. The results speak for themselves - 
+                        a user-friendly app that's boosted our customer engagement and revenue.
                       </p>
                     </div>
                   </div>

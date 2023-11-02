@@ -71,6 +71,9 @@
     text-align: center;
     color: #F3EBFD;
 }
+.link{
+    text-decoration: none;
+}
 
 .sub-heading{
     font-family: Open Sauce Sans;
@@ -323,6 +326,10 @@
     text-align: left;
     color: #545454;
 }
+.ux-design:hover{
+    color: #545454;
+}
+
 
 /* Testimonials */
 .testimonial-subheading{

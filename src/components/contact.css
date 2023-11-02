@@ -28,14 +28,7 @@ form label{
     text-align: left;
     color: #333333;
 }
-form input:hover,
-form input:active,
-form input:focus
-{
-    box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;
-    border: 1px solid #D0D5DD;
-}
-form input::placeholder{
+input[type="text"]::placeholder{
     font-family: Open Sauce One;
     font-size: 15px;
     font-weight: 300;
@@ -44,8 +37,13 @@ form input::placeholder{
     text-align: left;
     color: #8A8A8A;
 }
+input[type="checkbox"]:checked{
+    border: 1px solid #D0D5DD;
+    box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;
+}
 .selectBtn-toggle{
     border: 1px solid #D0D5DD;
+    outline: none;
 
 }
 .selectBtn-toggle:hover,
@@ -53,6 +51,8 @@ form input::placeholder{
 .selectBtn-toggle:focus
 {
     border: 1px solid #D0D5DD;
+    box-shadow: none;
+    outline: none;
 }
 .form-submitBtn{
     border: 1px solid #5D28A8;
@@ -71,4 +71,5 @@ form input::placeholder{
 .form-submitBtn:focus{
     background-color: #5D28A8;
     color: #FFFFFF;
+    outline: none;
 }

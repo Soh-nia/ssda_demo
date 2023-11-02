@@ -1,6 +1,7 @@
 import React from 'react';
 import "./contact.css";
 import "./ourworks.css";
+import "./projectcalc.css";
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
@@ -35,18 +36,21 @@ const Contact = () => {
 
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                    <input type="email" className="form-control" id="email" />
                   </div>
 
-                  <div className="input-group mb-3">
-                    <button className="btn dropdown-toggle selectBtn-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">NGN</button>
-                    <ul className="dropdown-menu">
-                      <li><Link className="dropdown-item" to="">USA</Link></li>
-                      <li><Link className="dropdown-item" to="">GERMANY</Link></li>
-                      <li><Link className="dropdown-item" to="">UK</Link></li>
-                    </ul>
-                    <input type="text" className="form-control" aria-label="Text input with dropdown button" />
-                  </div>
+                  <div className='mb-3'>
+                    <label htmlFor="phone" className="form-label">Phone Number</label>
+                    <div className="input-group">
+                      <select className="form-select selectBtn-toggle">
+                        <option selected>NG</option>
+                        <option value="1">GERMANY</option>
+                        <option value="2">USA</option>
+                        <option value="3">UK</option>
+                      </select>
+                      <input type="text" className="form-control" id='phone' />
+                    </div>
+                  </div>               
 
                   <div className="mb-3">
                     <label htmlFor="message" className="form-label">Message</label>

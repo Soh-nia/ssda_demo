@@ -24,7 +24,7 @@ const Blog = () => {
       <div className='container'>
         <div className='tabs pt-3'>
           <div className='row'>
-            <div className='col-md-6'>
+            <div className='col-md-7'>
               <ul className="nav nav-underline">
                 <li className="nav-item">
                   <Link className="nav-link blog-navLink" to="/blog">View all</Link>
@@ -44,7 +44,7 @@ const Blog = () => {
               </ul>
             </div>
 
-            <div className='col-md-6'>
+            <div className='col-md-5'>
               <div className='row'>
                 <div className='col-md-6'>
                   <div className="dropdown">

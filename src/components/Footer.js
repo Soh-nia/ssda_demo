@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
 
                 <div className="d-flex flex-column flex-sm-row justify-content-between py-2 my-3 border-top">
-                    <p className='copyright mt-4'>© Sirleaf. All rights reserved.</p>
+                    <p className='copyright mt-4'>© Sirleaf Development. All rights reserved.</p>
                     <ul className="list-unstyled d-flex mt-4">
                         <li className="ms-4" key="terms"><Link className="TCs" to="/">Terms</Link></li>
                         <li className="ms-4"key="privacy"><Link className="TCs" to="/">Privacy</Link></li>
