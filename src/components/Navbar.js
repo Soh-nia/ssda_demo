@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import { SlGlobe } from 'react-icons/sl';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
-import { FaBehance } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa';
 
 
 const Navbar = () => {
@@ -51,11 +51,11 @@ const Navbar = () => {
 
                     <div className="d-md-flex col-lg-2 justify-content-md-end">
                         <Link className="navbar-icons mx-3" to="/">
-                            <FaBehance />
+                            <FaXTwitter />
                         </Link>
 
                         <Link className="navbar-icons mx-3" to="/">
-                            <SlGlobe />
+                            <FaLinkedinIn />
                         </Link>
 
                         <Link className="navbar-icons mx-3" to="/">
