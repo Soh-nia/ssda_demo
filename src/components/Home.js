@@ -16,8 +16,8 @@ import { TbMessageCircleHeart } from 'react-icons/tb';
 const Home = () => {
   return (
     <>
-      <div className='d-padding1'>
-        <div className="row d-padding2">
+      <div className='d-padding1 container'>
+        <div className="row">
           <div className="col-12 col-lg-7">
             <div>
               <h1 className='welcome-heading'>Welcome to Sirleaf Software Development Agency</h1>

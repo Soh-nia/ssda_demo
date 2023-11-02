@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import { FaLinkedinIn } from 'react-icons/fa';
+import { FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import { BsInstagram } from 'react-icons/bs';
-import { FaXTwitter } from 'react-icons/fa';
 
 
 const Navbar = () => {

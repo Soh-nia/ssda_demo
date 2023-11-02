@@ -5,8 +5,8 @@ import "./Home.css";
 const AboutSection = () => {
   return (
     <>
-        <section className='d-padding1'>
-            <div className="row d-padding2">
+        <section className='d-padding1 container'>
+            <div className="row">
                 <div className="col-12 col-lg-6">
                     <div className='heading-container'>
                         <p className='sub-heading'>ABOUT US</p>
