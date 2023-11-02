@@ -8,7 +8,7 @@ import { BsInstagram } from 'react-icons/bs';
 const Navbar = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-md bg-white rounded sticky-top border-bottom py-2" aria-label="navbar">
+        <nav className="navbar navbar-expand-md bg-white rounded-0 sticky-top border-bottom py-2" aria-label="navbar">
             <div className="container">
                 <div className='col-md-1'>
                     <Link className="navbar-brand" to="/">
