@@ -2,7 +2,7 @@ import React from 'react';
 import "./contact.css";
 import "./ourworks.css";
 import "./projectcalc.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (

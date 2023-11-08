@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
             <div>
-              <p className='welcome-text'>Welcome to Sirleaf Software Development Agency - Your Partner for Web and Mobile Design, 
+              <p className='lead my-4'>Welcome to Sirleaf Software Development Agency - Your Partner for Web and Mobile Design, 
                 Brand Identity Creation, Startup Launch, and Online Customer Engagement. Crafting Websites, Apps, 
                 and Relationships through Exceptional Design and Technical Excellence
               </p>
@@ -286,7 +286,7 @@ const Home = () => {
             </p>            
           </div>
 
-          <div className='testimonial-carousel d-padding2'>
+          <div className='testimonial-carousel px-2'>
             <div id="testimonial" className="carousel slide mb-6" data-bs-ride="carousel">
               <div className="carousel-indicators">
                 <button type="button" data-bs-target="#testimonial" data-bs-slide-to="0" className="indicator" aria-label="Slide 1"></button>
@@ -297,14 +297,14 @@ const Home = () => {
               <div className="carousel-inner">
                 <div className="carousel-item">
                   <div className='row p-4'>
-                    <div className='col-lg-5 mb-3'>
-                      <div className='client'>
+                    <div className='col-lg-3 mb-3'>
+                      <div className='client card p-3 shadow-sm'>
                         <div className='client-img'>
-                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid mx-auto d-block' />
                         </div>
-                        <p className='client-name'>Kelly Williams</p>
-                        <p className='client-position'>Head of Design, Layers</p>
-                        <div className='stars'>
+                        <p className='client-name mb-0 text-center'>Oye Ajakaye</p>
+                        <p className='client-position mb-0 text-center'>CEO, Oyeebony.com</p>
+                        <div className='stars text-center'>
                           <AiFillStar />
                           <AiFillStar />
                           <AiFillStar />
@@ -313,10 +313,63 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-
-                    <div className='col-lg-7'>
-                      <p className='client-quote'>
-                        The Sirleaf team played a pivotal role in launching our startup. 
+                    <div className='col-lg-9'>
+                      <p className='lead border-bottom border-top py-5'>
+                        The SSDA team played a pivotal role in launching our startup. 
+                        Their guidance, technical excellence, and commitment to our vision 
+                        were instrumental in our success. We couldn't be happier with the results
+                      </p>
+                    </div>
+                  </div>                
+                </div>
+                <div className="carousel-item">
+                  <div className='row p-4'>
+                    <div className='col-lg-3 mb-3'>
+                      <div className='client card p-3 shadow-sm'>
+                        <div className='client-img'>
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid mx-auto d-block' />
+                        </div>
+                        <p className='client-name mb-0 text-center'>Adeola Azeez</p>
+                        <p className='client-position mb-0 text-center'>Founder, Adeolaazeezfoundation.com</p>
+                        <div className='stars text-center'>
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                        </div>
+                      </div>
+                    </div>
+                    <div className='col-lg-9'>
+                      <p className='lead border-bottom border-top py-5'>
+                        The SSDA team played a pivotal role in launching our startup. 
+                        Their guidance, technical excellence, and commitment to our vision 
+                        were instrumental in our success. We couldn't be happier with the results
+                      </p>
+                    </div>
+                  </div>                
+                </div>
+                <div className="carousel-item">
+                  <div className='row p-4'>
+                    <div className='col-lg-3 mb-3'>
+                      <div className='client card p-3 shadow-sm'>
+                        <div className='client-img'>
+                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid mx-auto d-block' />
+                        </div>
+                        <p className='client-name mb-0 text-center'>Ada James</p>
+                        <p className='client-position mb-0 text-center'>Project Manager, PLRCAP</p>
+                        <div className='stars text-center'>
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                          <AiFillStar />
+                        </div>
+                      </div>
+                    </div>
+                    <div className='col-lg-9'>
+                      <p className='lead border-bottom border-top py-5'>
+                        The SSDA team played a pivotal role in launching our startup. 
                         Their guidance, technical excellence, and commitment to our vision 
                         were instrumental in our success. We couldn't be happier with the results
                       </p>
@@ -324,63 +377,7 @@ const Home = () => {
                   </div>                
                 </div>
 
-                <div className="carousel-item active carousel-item-start">
-                  <div className='row p-4'>
-                    <div className='col-lg-5 mb-3'>
-                      <div className='client'>
-                        <div className='client-img'>
-                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
-                        </div>
-                        <p className='client-name'>Jenny Henry</p>
-                        <p className='client-position'>Head of Design, Layers</p>
-                        <div className='stars'>
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className='col-lg-7'>
-                      <p className='client-quote'>
-                        Sirleaf is our go-to software partner. They consistently deliver top-quality solutions 
-                        on time and within budget. Their commitment to excellence and collaborative approach 
-                        make them a trusted extension of our team. Highly recommended!"
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="carousel-item carousel-item-next carousel-item-start">
-                  <div className='row p-4'>
-                    <div className='col-lg-5 mb-3'>
-                      <div className='client'>
-                        <div className='client-img mb-3'>
-                          <img src='assets/Avatar.png' alt='avatar' className='img-fluid' />
-                        </div>
-                        <p className='client-name'>Pere James</p>
-                        <p className='client-position'>Head of Design, Layers</p>
-                        <div className='stars'>
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                          <AiFillStar />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className='col-lg-7'>
-                      <p className='client-quote'>
-                        Working with Sirleaf was a game-changer for our business. Their expert team brought 
-                        our app concept to life, exceeding our expectations. The results speak for themselves - 
-                        a user-friendly app that's boosted our customer engagement and revenue.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+           
               </div>
 
               <button className="carousel-control-prev" type="button" data-bs-target="#testimonial" data-bs-slide="prev">
