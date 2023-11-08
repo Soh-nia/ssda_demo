@@ -40,6 +40,7 @@ input[type="text"]::placeholder{
 input[type="checkbox"]:checked{
     border: 1px solid #D0D5DD;
     box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;
+    color: #5D28A8;
 }
 .selectBtn-toggle{
     border: 1px solid #D0D5DD;
