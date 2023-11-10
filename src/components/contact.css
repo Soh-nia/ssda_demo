@@ -37,6 +37,25 @@ input[type="text"]::placeholder{
     text-align: left;
     color: #8A8A8A;
 }
+input[type="email"]{
+    border: 1px solid #D0D5DD;
+    outline: none;
+}
+input[type='email']:hover,
+input[type='email']:active,
+input[type='email']:focus{
+    border: 1px solid #D0D5DD;
+    box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;
+}
+textarea{
+    border: 1px solid #D0D5DD;
+}
+textarea:hover,
+textarea:active,
+textarea:focus{
+    border: 1px solid #D0D5DD;
+    box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;
+}
 input[type="checkbox"]:checked{
     border: 1px solid #D0D5DD;
     box-shadow: #D0D5DD 0px 6px 24px 0px, #5D28A8 0px 0px 0px 1px;

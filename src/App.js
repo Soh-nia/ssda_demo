@@ -5,13 +5,15 @@ import Navbar from './components/Navbar';
 import Layout from './components/Layout';
 import Footer from './components/Footer';
 
+
 const App = () => {
+
   return (
     <BrowserRouter>
       <Navbar />
       <Layout />
       <Footer />
-    </BrowserRouter>
+    </BrowserRouter>    
   )
 }
 

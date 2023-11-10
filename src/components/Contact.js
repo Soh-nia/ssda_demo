@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./contact.css";
-import "./ourworks.css";
-import "./projectcalc.css";
-// import { Link } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+      e.preventDefault();
+      emailjs.sendForm('service_6fx5oug', 'template_pwoju1b', form.current, 'edQQH2UmcSI0WKqzm')
+          .then((result) => {
+            toast.success('Email successfully sent, check inbox');
+          }, (error) => {
+            toast.error('An error occurred. Please try again');
+          });
+      };
+
   return (
     <>
       <div className='padding1 bg1'>
@@ -28,33 +40,25 @@ const Contact = () => {
                   <p>Let’s Help you Elevate your Brand</p>
                 </div>
 
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="mb-3">
                     <label htmlFor="fullName" className="form-label">Full Name</label>
-                    <input type="text" className="form-control" id="fullName" placeholder="Enter Full Name" />
+                    <input type="text" className="form-control" id="fullName" name='fullName' placeholder="Enter Full Name" />
                   </div>
 
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
-                    <input type="email" className="form-control" id="email" />
+                    <input type="email" className="form-control" id="email" name='email' required />
                   </div>
 
                   <div className='mb-3'>
-                    <label htmlFor="phone" className="form-label">Phone Number</label>
-                    <div className="input-group">
-                      <select className="form-select selectBtn-toggle">
-                        <option selected>NG</option>
-                        <option value="1">GERMANY</option>
-                        <option value="2">USA</option>
-                        <option value="3">UK</option>
-                      </select>
-                      <input type="text" className="form-control" id='phone' />
-                    </div>
+                    <label htmlFor="phone" className="form-label">Phone Number</label>                    
+                    <input type="text" className="form-control" id='phone' name='phone' required />                  
                   </div>               
 
                   <div className="mb-3">
                     <label htmlFor="message" className="form-label">Message</label>
-                    <textarea className="form-control" id="message" placeholder="Leave us a message..." rows="3"></textarea>
+                    <textarea className="form-control" id="message"name='message' placeholder="Leave us a message..." rows="3" required></textarea>
                   </div>
 
                   <div className="row">

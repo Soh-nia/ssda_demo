@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
@@ -13,8 +13,12 @@ import CalculatorProjectTimeline from './CalculatorProjectTimeline';
 import CalculatorDesignPreference from './CalculatorDesignPreference';
 import CalculatorPageNumber from './CalculatorPageNumber';
 import CalculatorProjectEstimate from './CalculatorProjectEstimate';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 const Layout = () => {
+  const [formData, setFormData] = useState({});
+
   return (
     <>
       <Routes>
@@ -23,15 +27,16 @@ const Layout = () => {
         <Route path='/ourWorks' element={<OurWorks />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/blogPost' element={<BlogPost />} />
-        <Route path='/projectCalculator' element={<ProjectCalc />} />
-        <Route path='/calculatorSelectService' element={<CalculatorSelectService />} />
-        <Route path='/calculatorStatusProject' element={<CalculatorStatusProject />} />
-        <Route path='/calculatorProjectTimeline' element={<CalculatorProjectTimeline />} />
-        <Route path='/calculatorDesignPreference' element={<CalculatorDesignPreference />} />
-        <Route path='/calculatorPageNumber' element={<CalculatorPageNumber />} />
-        <Route path='/calculatorProjectEstimate' element={<CalculatorProjectEstimate />} />
+        <Route path='/projectCalculator' element={<ProjectCalc formData={formData} setFormData={setFormData} />} />    
+        <Route path='/calculatorSelectService' element={<CalculatorSelectService formData={formData} setFormData={setFormData} />} />
+        <Route path='/calculatorStatusProject' element={<CalculatorStatusProject formData={formData} setFormData={setFormData} />} />
+        <Route path='/calculatorProjectTimeline' element={<CalculatorProjectTimeline formData={formData} setFormData={setFormData} />} />
+        <Route path='/calculatorDesignPreference' element={<CalculatorDesignPreference formData={formData} setFormData={setFormData} />} />
+        <Route path='/calculatorPageNumber' element={<CalculatorPageNumber formData={formData} setFormData={setFormData} />} />
+        <Route path='/calculatorProjectEstimate' element={<CalculatorProjectEstimate formData={formData} setFormData={setFormData} />} />      
         <Route path='/contactUs' element={<Contact />} />
       </Routes>
+      <ToastContainer />
     </>
   )
 }
