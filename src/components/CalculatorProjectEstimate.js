@@ -179,17 +179,7 @@ const CalculatorProjectEstimate = ({ formData }) => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div id="emailSentToast" class="toast align-items-center top-0 start-50" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="10000" data-autohide="true">
-                <div class="d-flex">
-                    <div class="toast-body">
-                        Email successfully sent, check inbox
-                    </div>
-                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-            </div>
-       
+            </div>       
         </div>
     </>
 
