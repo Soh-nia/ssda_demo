@@ -2,8 +2,36 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import "./Footer.css"
+import emailjs from "@emailjs/browser";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Footer = () => {
+    const sendEmail = (email) => {
+        emailjs.send(
+            'service_6fx5oug',
+            'template_jaryym3',
+            {
+                email: email,
+            },
+            'edQQH2UmcSI0WKqzm'
+        )
+        .then(response => {
+            toast.success('Thank you for joining our Newsletter');
+         })
+        .catch(error => {
+            toast.error('An error occurred. Please try again');
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const email = e.target.email.value;
+
+        sendEmail(email);        
+    };
+
+
   return (
     <>
         <div className='border-bottom-dark getInTouch mt-2 padding1'>
@@ -55,11 +83,11 @@ const Footer = () => {
                     </div>                        
                                         
                     <div className="mb-3">
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <p className='newsletter-heading'>Stay Up To Date</p>
                             <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label htmlFor="email" className="visually-hidden">Email address</label>
-                                <input id="email" type="email" className="form-control rounded-0" placeholder="Enter Your Email" />
+                                <input id="email" name='email' type="email" className="form-control rounded-0" placeholder="Enter Your Email" />
                                 <button className="btn newsletter-btn rounded-0" type="button">Subscribe</button>
                             </div>
                         </form>

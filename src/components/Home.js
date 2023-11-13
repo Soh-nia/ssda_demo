@@ -4,7 +4,6 @@ import "./Home.css";
 import AboutSection from './AboutSection';
 import SocialProof from './SocialProof';
 import Team from './Team';
-import { BsArrowRightShort } from 'react-icons/bs';
 import { AiFillStar } from 'react-icons/ai';
 import { PiChatsCircleFill } from 'react-icons/pi';
 import { BiSolidZap, BiLineChart } from 'react-icons/bi';
@@ -31,7 +30,7 @@ const Home = () => {
             </div>
 
             <div>
-              <Link to="/" className="btn btn-lg primary-btn rounded-0">Get in Touch</Link>
+              <Link to="/contactUs" className="btn btn-lg primary-btn rounded-0">Get in Touch</Link>
             </div>
           </div>
 
@@ -122,10 +121,10 @@ const Home = () => {
                     Creating websites and web applications using various technologies and frameworks 
                     to meet specific business needs.
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>                
               </div>
 
@@ -139,10 +138,10 @@ const Home = () => {
                     Designing and developing mobile applications for iOS and Android platforms. 
                     (using frameworks like React Native or Flutter)
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -156,10 +155,10 @@ const Home = () => {
                     Creating software solutions uniquely crafted to meet the specific and often 
                     complex requirements of each client.
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -173,10 +172,10 @@ const Home = () => {
                     Crafting user interfaces and user experiences that are visually appealing and 
                     user-friendly and User-Centered.
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -190,10 +189,10 @@ const Home = () => {
                     Providing expert advice on software architecture, technology stack, 
                     and project planning. System scalability, performance, and maintainability.
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -207,10 +206,10 @@ const Home = () => {
                     Ensuring the quality and reliability of software through testing, including manual 
                     and automated testing.
                   </p>
-                  <Link to="/" className="feature-link">
+                  {/* <Link to="/" className="feature-link">
                     Learn More
                     <BsArrowRightShort className='arrowRight-icon' />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

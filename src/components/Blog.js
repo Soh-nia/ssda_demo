@@ -85,7 +85,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Design</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/UXReview" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>UX review presentations</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -109,7 +109,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Product</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/migratingLinear" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>Migrating to Linear 101</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -133,9 +133,9 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Building your API Stack</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/restfulApi" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
-                    <p className='blog-heading'>UX review presentations</p>
+                    <p className='blog-heading'>The Profound Benefits of RESTful APIs</p>
                     <FiArrowUpRight className='blog-icon' />
                   </div>
                 </Link>
@@ -159,7 +159,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Digital Transformation Insights</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/designWireframe" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>Embracing Digital Transformation</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -183,7 +183,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Design</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/designWireframe" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>What is Wireframing?</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -209,7 +209,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Design</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/designWireframe" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>How collaboration makes us better designers</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -232,7 +232,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Product</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/designWireframe" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>Our top 10 Javascript frameworks to use</p>
                     <FiArrowUpRight className='blog-icon' />
@@ -256,7 +256,7 @@ const Blog = () => {
 
               <div className='blog-post mt-3'>
                 <p className='blog-subheading mb-1'>Customer Success</p>
-                <Link to="/blogPost" className='blogPost-link'>
+                <Link to="/designWireframe" className='blogPost-link'>
                   <div className='d-flex justify-content-between'>
                     <p className='blog-heading'>Podcast: Creating a better CX Community</p>
                     <FiArrowUpRight className='blog-icon' />

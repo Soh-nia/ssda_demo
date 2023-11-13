@@ -36,7 +36,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Empowering E-Commerce</p>                
-                  <p className='product-title'>Online Marketplace: ShopX</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>Online Marketplace: ShopX</p></Link>
                   <p className='product-text'>
                     ShopX is an innovative online marketplace that redefines 
                     the e-commerce experience. It offers a user-friendly interface, 
@@ -53,7 +53,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Connecting Communities</p>
-                  <p className='product-title'>ConnectU</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>ConnectU</p></Link>
                   <p className='product-text'>
                     ConnectU is a vibrant social networking platform that brings 
                     communities together. It offers features for users to connect, 
@@ -69,7 +69,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Streamlining Business Operations</p>
-                  <p className='product-title'>BIZ Flow</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>BIZ Flow</p></Link>
                   <p className='product-text'>
                     BizFlow is a comprehensive ERP system designed to streamline 
                     business operations. It integrates all key processes, from 
@@ -87,7 +87,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Enhancing Learning Experience</p>
-                  <p className='product-title'>LearnHub</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>LearnHub</p></Link>
                   <p className='product-text'>
                     LearnHub is an e-learning platform that offers a diverse range of courses 
                     and interactive content. It promotes lifelong learning and skill development 
@@ -103,7 +103,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Revolutionizing Healthcare</p>
-                  <p className='product-title'>HealthConnect</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>HealthConnect</p></Link>
                   <p className='product-text'>
                     HealthConnect is a telemedicine app that connects patients 
                     with healthcare providers for virtual consultations. It simplifies 
@@ -119,7 +119,7 @@ const OurWorks = () => {
 
                 <div className='product-details pt-5'>
                   <p className='product-subtitle'>Optimizing Travel Planning</p>
-                  <p className='product-title'>TravelEase</p>
+                  <Link to="/ourWorks" className='link'><p className='product-title'>TravelEase</p></Link>
                   <p className='product-text'>
                     TravelEase is a user-friendly travel booking website that 
                     simplifies trip planning. It provides a seamless booking experience 
