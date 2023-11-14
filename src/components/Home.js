@@ -277,7 +277,7 @@ const Home = () => {
 
       <div className='d-padding1 border-top'>
         <div className='container'>
-          <div className='d-padding2'>
+          <div>
             <p className='testimonial-subheading'>Words from Our Clients</p>
             <p className='testimonial-heading'>Client Testimonials</p>
             <p className='testimonial-supporting'>Hear what our satisfied clients have to say about their 
@@ -285,17 +285,16 @@ const Home = () => {
             </p>            
           </div>
 
-          <div className='testimonial-carousel px-2'>
-            <div id="testimonial" className="carousel slide mb-6" data-bs-ride="carousel">
-              <div className="carousel-indicators">
-                <button type="button" data-bs-target="#testimonial" data-bs-slide-to="0" className="indicator" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonial" data-bs-slide-to="1" aria-label="Slide 2" className="indicator"></button>
-                <button type="button" data-bs-target="#testimonial" data-bs-slide-to="2" aria-label="Slide 3" className="active indicator" aria-current="true"></button>
-              </div>
+          <div id="myCarousel" className="carousel slide mb-6 px-2" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active indicator" aria-label="Slide 1" aria-current="true"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" className="indicator"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" className="indicator"></button>
+            </div>
 
-              <div className="carousel-inner">
-                <div className="carousel-item">
-                  <div className='row p-4'>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className='row p-4'>
                     <div className='col-lg-3 mb-3'>
                       <div className='client card p-3 shadow-sm'>
                         <div className='client-img'>
@@ -319,10 +318,11 @@ const Home = () => {
                         were instrumental in our success. We couldn't be happier with the results
                       </p>
                     </div>
-                  </div>                
                 </div>
-                <div className="carousel-item">
-                  <div className='row p-4'>
+              </div>
+
+              <div className="carousel-item">
+                <div className='row p-4'>
                     <div className='col-lg-3 mb-3'>
                       <div className='client card p-3 shadow-sm'>
                         <div className='client-img'>
@@ -346,10 +346,11 @@ const Home = () => {
                         were instrumental in our success. We couldn't be happier with the results
                       </p>
                     </div>
-                  </div>                
-                </div>
-                <div className="carousel-item">
-                  <div className='row p-4'>
+                </div>  
+              </div>
+
+              <div className="carousel-item">
+                <div className='row p-4'>
                     <div className='col-lg-3 mb-3'>
                       <div className='client card p-3 shadow-sm'>
                         <div className='client-img'>
@@ -373,22 +374,20 @@ const Home = () => {
                         were instrumental in our success. We couldn't be happier with the results
                       </p>
                     </div>
-                  </div>                
-                </div>
-
-           
+                </div>  
               </div>
+            </div>
 
-              <button className="carousel-control-prev" type="button" data-bs-target="#testimonial" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#testimonial" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>  
-          </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+
+            <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>            
+          </div>         
         </div>
       </div>
 

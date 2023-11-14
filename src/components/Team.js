@@ -1,5 +1,8 @@
 import React from 'react';
 import "./Home.css";
+import "./Team.css";
+import { FaSquareXTwitter, FaLinkedin, FaSquareGithub, FaEnvelope } from "react-icons/fa6";
+
 
 const Team = () => {
   return (
@@ -14,77 +17,161 @@ const Team = () => {
                 </p>
             </div>
             
-            <div className="album py-5">
-                <div className="row row-cols-1 row-cols-md-3 g-3">
-                <div className="col-md-8">
-                    <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                    <div className="mt-5 p-5">
-                        <div className='attribution-card p-2 mt-5'>  
-                        <p className='name'>Marvin McKinney</p>
-                        <p className='role'>Founder & CEO</p>
-                        </div>                      
-                    </div>
-                    </div>                 
-                </div>
-
-                <div className='col-md-4'>
-                    <div className='row row-cols-1 g-3'>
-                    <div className="col">
-                        <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                        <div className="mt-5 p-5">
-                            <div className='attribution-card p-2 mt-5'>
-                            <p className='name'>Robert Fox</p>
-                            <p className='role'>Engineering Manager</p>
-                            </div>                        
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="col">
-                        <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                        <div className="mt-5 p-5">
-                            <div className='attribution-card p-2 mt-5'>
-                            <p className='name'>Dianne Russell</p>
-                            <p className='role'>Product Manager</p>
-                            </div>                        
-                        </div>
-                        </div>
-                    </div>
+            <div className="row row-cols-1 row-cols-md-3 py-5">                
+                <div className="col p-2">
+                    <div className="card p-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Luna Turner</h3>
+                            <p className='role'>Founder</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
 
-                <div className="col-md-4">
-                    <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                    <div className="mt-5 p-5">
-                        <div className='attribution-card p-2 mt-5'>
-                        <p className='name'>Cody Fisher</p>
-                        <p className='role'>UI Designer</p>
-                        </div>                      
+                <div className="col p-2">
+                    <div className="card p-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Chris Langer</h3>
+                            <p className='role'>UI/UX Designer</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
                     </div>
-                    </div>                 
                 </div>
 
-                <div className="col-md-4">
-                    <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                    <div className="mt-5 p-5">
-                        <div className='attribution-card p-2 mt-5'>
-                        <p className='name'>Leslie Alexander</p>
-                        <p className='role'>Backend Developer</p>
-                        </div>                      
+                <div className="col p-2">
+                    <div className="card py-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Jenna Mai</h3>
+                            <p className='role'>Full Stack Developer</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
                     </div>
-                    </div>                 
                 </div>
 
-                <div className="col-md-4">
-                    <div className="card card-cover h-100 card-bg rounded-1 shadow-sm">
-                    <div className="mt-5 p-5">
-                        <div className='attribution-card p-2 mt-5'>
-                        <p className='name'>Kristin Watson</p>
-                        <p className='role'>Product Designer</p>
-                        </div>                      
+                <div className="col p-2">
+                    <div className="card py-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Jenna Mai</h3>
+                            <p className='role'>Full Stack Developer</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linked.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
                     </div>
-                    </div>                 
-                </div>     
+                </div>
+
+                <div className="col p-2">
+                    <div className="card py-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Jenna Mai</h3>
+                            <p className='role'>Full Stack Developer</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+
+                <div className="col p-2">
+                    <div className="card py-3">
+                        <div className='card-body'>
+                            <div className="card-img">
+                                <img src="assets/Avatar.png" className='img-fluid' />
+                            </div>
+                            <h3 className='name'>Jenna Mai</h3>
+                            <p className='role'>Full Stack Developer</p>
+                            <div className="icons d-flex justify-content-center align-item-center">
+                                <a href="https://www.twitter.com" className='mx-1'>
+                                    <FaSquareXTwitter />
+                                </a>
+                                <a href="https://www.linkedin.com" className='mx-1'>
+                                    <FaLinkedin />
+                                </a>
+                                <a href="https://www.github.com" className='mx-1'>
+                                    <FaSquareGithub />
+                                </a>
+                                <a href="https://www.gmail.com" className='mx-1'>
+                                    <FaEnvelope />
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>

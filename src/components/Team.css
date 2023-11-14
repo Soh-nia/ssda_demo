@@ -1,0 +1,54 @@
+  .card {
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    border-radius: 1em;
+    color: #101828;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+  }
+  .card-img{
+    width: 8em;
+    height: 8em;
+    background-color: #a993ff;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+  }
+  .card-img img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .name{
+    font-family: Open Sauce Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #101828;
+}
+.role{
+    font-family: Open Sauce One;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #101828;
+}
+  
+.card a {
+    text-decoration: none;
+    color: #101828;
+    font-size: 20px;
+    margin: auto;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card:hover .card-img {
+    transform: scale(1.15);
+}
+.card a:hover{
+    transform: scale(1.15);
+    color: #a993ff;
+}

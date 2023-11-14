@@ -26,7 +26,7 @@ const About = () => {
 
       <AboutSection />
 
-      <section className='padding1 bg2'>
+      <div className='padding1 bg2'>
         <div className='container padding2'>
           <div>
             <p className='metric-heading'>We’re only just getting started on our journey</p>
@@ -69,13 +69,13 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <SocialProof />
 
       <Team />
 
-      <section className='padding1 bg2'>
+      <div className='padding1 bg2'>
         <div className='container padding2'>
           <div>
             <p className='subheading2'>Our values</p>
@@ -97,8 +97,8 @@ const About = () => {
                 </div>                
               </div>
 
-              <div class="feature col d-flex align-items-start">
-                <div class="feature-icon d-none d-lg-block mx-1">
+              <div className="feature col d-flex align-items-start">
+                <div className="feature-icon d-none d-lg-block mx-1">
                   <BiSolidZap className='icons' />
                 </div>
                 <div>
@@ -110,8 +110,8 @@ const About = () => {
                 </div>
               </div>
 
-              <div class="feature col d-flex align-items-start">
-                <div class="feature-icon d-none d-lg-block mx-1">
+              <div className="feature col d-flex align-items-start">
+                <div className="feature-icon d-none d-lg-block mx-1">
                   <BiLineChart className='icons' />
                 </div>
                 <div>
@@ -123,8 +123,8 @@ const About = () => {
                 </div>
               </div>
 
-              <div class="feature col d-flex align-items-start">
-                <div class="feature-icon d-none d-lg-block mx-1">
+              <div className="feature col d-flex align-items-start">
+                <div className="feature-icon d-none d-lg-block mx-1">
                   <FaRegSmileBeam className='icons' />
                 </div>
                 <div>
@@ -136,8 +136,8 @@ const About = () => {
                 </div>
               </div>
 
-              <div class="feature col d-flex align-items-start">
-                <div class="feature-icon d-none d-lg-block mx-1">
+              <div className="feature col d-flex align-items-start">
+                <div className="feature-icon d-none d-lg-block mx-1">
                   <FiCommand className='icons' />
                 </div>
                 <div>
@@ -149,8 +149,8 @@ const About = () => {
                 </div>
               </div>
 
-              <div class="feature col d-flex align-items-start">
-                <div class="feature-icon d-none d-lg-block mx-1">
+              <div className="feature col d-flex align-items-start">
+                <div className="feature-icon d-none d-lg-block mx-1">
                   <TbMessageCircleHeart className='icons' />
                 </div>
                 <div>
@@ -163,7 +163,7 @@ const About = () => {
               </div>
             </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }

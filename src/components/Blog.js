@@ -24,7 +24,7 @@ const Blog = () => {
       <div className='container'>
         <div className='tabs pt-3'>
           <div className='row'>
-            <div className='col-md-7'>
+            <div className='col-md-9'>
               <ul className="nav nav-underline">
                 <li className="nav-item">
                   <Link className="nav-link blog-navLink" to="/blog">View all</Link>
@@ -44,34 +44,13 @@ const Blog = () => {
               </ul>
             </div>
 
-            <div className='col-md-5'>
-              <div className='row'>
-                <div className='col-md-6'>
-                  <div className="dropdown">
-                    <Link className="btn btn-lg dropdown-toggle dropdown-btn rounded-0" to="/blog" role="button" 
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                      Most recents
-                    </Link>
-
-                    <ul className="dropdown-menu">
-                      <li><Link className="dropdown-item" to="/blog">Billing</Link></li>
-                      <li><Link className="dropdown-item" to="/blog">Email</Link></li>
-                      <li><Link className="dropdown-item" to="/blog">Notifications</Link></li>
-                      <li><Link className="dropdown-item" to="/blog">Integrations</Link></li>
-                      <li><Link className="dropdown-item" to="/blog">API</Link></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className='col-md-6'>
-                  <form role="search">
-                    <div className="input-group search-input">
-                      <input className="form-control input" type="search" id='serach-input' placeholder="Search" aria-label="Search" />
-                      <button className="btn search-btn" type="submit" id='search-btn'><BsSearch /></button>
-                    </div>                    
-                  </form>
-                </div>
-              </div>
+            <div className='col-md-3'>              
+              <form role="search">
+                <div className="input-group search-input">
+                  <input className="form-control input" type="search" id='serach-input' placeholder="Search" aria-label="Search" />
+                  <button className="btn search-btn" type="submit" id='search-btn'><BsSearch /></button>
+                </div>                    
+              </form>
             </div>
           </div>
         </div>

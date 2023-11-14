@@ -68,7 +68,7 @@ const UXReview = () => {
                   that drive meaningful improvements.
                 </p>
                 <p className="title">Setting the Stage:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Understand Your Audience:</h5>
@@ -90,7 +90,7 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <div className="container">
                   <div className="padding2">
                     <img
@@ -104,7 +104,7 @@ const UXReview = () => {
                   </div>
                 </div>
                 <p className="title">Structuring Your Presentation:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Introduction:</h5>
@@ -159,9 +159,9 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <p className="title">Visuals and Data:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Visualize Your Data:</h5>
@@ -186,7 +186,7 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <div className="container m-2">
                   <div className="padding2">
                     <img
@@ -198,7 +198,7 @@ const UXReview = () => {
                   </div>
                 </div>
                 <p className="title">Engaging Your Audience:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Storytelling:</h5>
@@ -223,9 +223,9 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <p className="title">Closing and Follow-up:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Summary:</h5>
@@ -250,9 +250,9 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <p className="title">Tools for UX Review Presentations:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Slideshows:</h5>
@@ -276,7 +276,7 @@ const UXReview = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <div className="conclusion mt-5">
                   <p className="title">Conclusion</p>
                   <p className="first-paragraph">

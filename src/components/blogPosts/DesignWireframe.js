@@ -69,7 +69,7 @@ const DesignWireframe = () => {
                                 </div>                                
                             </div>                            
                             <p className='title'>The Significance of Wireframing:</p>
-                            <p className='first-paragraph'>
+                            <div className='first-paragraph'>
                                 <ol>
                                     <li>
                                         <h5>Clarity and Focus:</h5>
@@ -96,9 +96,9 @@ const DesignWireframe = () => {
                                         </span>
                                     </li>
                                 </ol>                          
-                            </p>
+                            </div>
                             <p className='title'>Best Practices for Effective Wireframing:</p>
-                            <p className='first-paragraph'>
+                            <div className='first-paragraph'>
                                 <ol>
                                     <li>
                                         <h5>Start with a Plan:</h5>
@@ -131,7 +131,7 @@ const DesignWireframe = () => {
                                         </span>
                                     </li>
                                 </ol>                          
-                            </p>
+                            </div>
                             <div className='container m-2'>
                                 <div className='padding2'>
                                     <img src='assets/image14.png' alt='blog' className='img-fluid' />
@@ -139,7 +139,7 @@ const DesignWireframe = () => {
                                 </div>                                
                             </div>
                             <p className='title'>Tools for Wireframing:</p>
-                            <p className='first-paragraph'>
+                            <div className='first-paragraph'>
                                 <ol>
                                     <li>
                                         <h5>Balsamiq:</h5>
@@ -163,7 +163,7 @@ const DesignWireframe = () => {
                                         </span>
                                     </li>
                                 </ol>                          
-                            </p>
+                            </div>
                             <div className='conclusion mt-5'>
                                 <p className='title'>Conclusion</p>
                                 <p className='first-paragraph'>

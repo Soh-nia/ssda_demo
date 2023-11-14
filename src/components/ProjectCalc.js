@@ -84,7 +84,7 @@ const ProjectCalc = () => {
               <p className='projectContent-subheading'>
                 Types of Project Costs
               </p>
-              <p className='projectContent'>
+              <div className='projectContent'>
                 <ul>
                   <li><strong>Direct Costs: </strong>Explicitly tied to the project, such as labor, materials, and equipment.</li>
                   <li><strong>Indirect Costs: </strong>Incurred but not directly attributable, like overhead expenses and administrative costs.</li>
@@ -94,7 +94,7 @@ const ProjectCalc = () => {
                   <li><strong>Contingency Costs: </strong>Reserved funds for unforeseen events or risks.</li>
                   <li><strong>Capital Costs: </strong>Investment in assets with long-term benefits, like software licenses or equipment.</li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </div> 

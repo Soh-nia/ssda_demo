@@ -261,36 +261,6 @@
     text-align: left;
     color: #545454;
 }
-.card-bg{
-    background: url(/public/assets/image2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.attribution-card{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
-    padding: 96px, 24px, 24px, 24px;
-    border: 1px solid #F3EBFD;
-}
-.name{
-    font-family: Open Sauce Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
-.role{
-    font-family: Open Sauce One;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
 
 .user-experience{
     font-family: Open Sauce Sans;

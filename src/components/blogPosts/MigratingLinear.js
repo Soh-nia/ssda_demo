@@ -75,7 +75,7 @@ const MigratingLinear = () => {
                   Before diving into the migration process, familiarize yourself
                   with the key features that make Linear 101 stand out:
                 </p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Issue Tracking:</h5>
@@ -123,7 +123,7 @@ const MigratingLinear = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <div className="container">
                   <div className="padding2">
                     <img
@@ -139,7 +139,7 @@ const MigratingLinear = () => {
                 <p className="title">
                   Migrating to Linear 101: A Step-by-Step Guide
                 </p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Evaluate Your Current Setup:</h5>
@@ -208,9 +208,9 @@ const MigratingLinear = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
                 <p className="title">Benefits of Migrating to Linear 101:</p>
-                <p className="first-paragraph">
+                <div className="first-paragraph">
                   <ol>
                     <li>
                       <h5>Streamlined Processes:</h5>
@@ -241,7 +241,7 @@ const MigratingLinear = () => {
                       </span>
                     </li>
                   </ol>
-                </p>
+                </div>
 
                 <div className="conclusion mt-5">
                   <p className="title">Conclusion</p>

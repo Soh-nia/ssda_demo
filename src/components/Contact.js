@@ -70,29 +70,29 @@ const Contact = () => {
 
                       <div className="mb-3 form-check">
                         <input type="checkbox" className="form-check-input" id="check2" />
-                        <label className="form-check-label" for="check2">UX design</label>
+                        <label className="form-check-label" htmlFor="check2">UX design</label>
                       </div>
 
                       <div className="mb-3 form-check">
                         <input type="checkbox" className="form-check-input" id="check3" />
-                        <label className="form-check-label" for="check3">User research</label>
+                        <label className="form-check-label" htmlFor="check3">User research</label>
                       </div>
                     </div>
 
                     <div className="col">
                       <div className="mb-3 form-check">
                         <input type="checkbox" className="form-check-input" id="check4" />
-                        <label className="form-check-label" for="check4">App Development</label>
+                        <label className="form-check-label" htmlFor="check4">App Development</label>
                       </div>
 
                       <div className="mb-3 form-check">
-                        <input type="checkbox" className="form-check-input checkbox" id="check4" />
-                        <label className="form-check-label" for="check4">Web Development</label>
+                        <input type="checkbox" className="form-check-input checkbox" id="check5" />
+                        <label className="form-check-label" htmlFor="check5">Web Development</label>
                       </div>
 
                       <div className="mb-3 form-check">
-                        <input type="checkbox" className="form-check-input" id="check4" />
-                        <label className="form-check-label" for="check4">Other</label>
+                        <input type="checkbox" className="form-check-input" id="check6" />
+                        <label className="form-check-label" htmlFor="check6">Other</label>
                       </div>
                     </div>                    
                   </div>
