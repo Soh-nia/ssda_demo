@@ -73,7 +73,7 @@ const Team = () => {
                     <div className="card py-3">
                         <div className='card-body'>
                             <div className="card-img">
-                                <img src="assets/Avatar.png" className='img-fluid' />
+                                <img src="assets/Avatar.png" className='img-fluid' alt="Avatar"/>
                             </div>
                             <h3 className='name'>Jenna Mai</h3>
                             <p className='role'>Full Stack Developer</p>
@@ -99,7 +99,7 @@ const Team = () => {
                     <div className="card py-3">
                         <div className='card-body'>
                             <div className="card-img">
-                                <img src="assets/Avatar.png" className='img-fluid' />
+                                <img src="assets/Avatar.png" className='img-fluid' alt='Avatar'/>
                             </div>
                             <h3 className='name'>Jenna Mai</h3>
                             <p className='role'>Full Stack Developer</p>
