@@ -4,7 +4,6 @@ import "./blog.css";
 import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
-import Pagination from "./Pagination";
 
 const Blog = () => {
   return (
@@ -298,8 +297,6 @@ const Blog = () => {
             </div>
           </div>
         </div>
-
-        {/* <Pagination /> */}
       </div>
     </>
   );
