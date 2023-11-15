@@ -228,7 +228,7 @@ const DesignWireframe = () => {
 
                             <div className='blog-post mt-3'>
                                 <p className='blog-subheading mb-1'>Design</p>
-                                <Link to="/blogPost" className='blogPost-link'>
+                                <Link to="/UXReview" className='blogPost-link'>
                                 <div className='d-flex justify-content-between'>
                                     <p className='blog-heading'>UX review presentations</p>
                                     <FiArrowUpRight className='blog-icon' />
@@ -252,7 +252,7 @@ const DesignWireframe = () => {
 
                             <div className='blog-post mt-3'>
                                 <p className='blog-subheading mb-1'>Product</p>
-                                <Link to="/blogPost" className='blogPost-link'>
+                                <Link to="/migratingLinear" className='blogPost-link'>
                                 <div className='d-flex justify-content-between'>
                                     <p className='blog-heading'>Migrating to Linear 101</p>
                                     <FiArrowUpRight className='blog-icon' />
@@ -276,9 +276,9 @@ const DesignWireframe = () => {
 
                             <div className='blog-post mt-3'>
                                 <p className='blog-subheading mb-1'>Building your API Stack</p>
-                                <Link to="/blogPost" className='blogPost-link'>
+                                <Link to="/restfulApi" className='blogPost-link'>
                                 <div className='d-flex justify-content-between'>
-                                    <p className='blog-heading'>UX review presentations</p>
+                                    <p className='blog-heading'>The Profound Benefits of RESTful APIs</p>
                                     <FiArrowUpRight className='blog-icon' />
                                 </div>
                                 </Link>

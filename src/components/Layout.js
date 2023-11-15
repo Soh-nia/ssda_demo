@@ -16,8 +16,13 @@ import DesignWireframe from './blogPosts/DesignWireframe';
 import UXReview from './blogPosts/UXReview';
 import MigratingLinear from './blogPosts/MigratingLinear';
 import RestfulApi from './blogPosts/RestfulApi';
+import DigitalTransform from './blogPosts/DigitalTransform';
+import Collaboration from './blogPosts/Collaboration';
+import JavascriptFramework from './blogPosts/JavascriptFramework';
+import Podcast from './blogPosts/Podcast';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
+
 
 const Layout = () => {
   const [formData, setFormData] = useState({});
@@ -33,6 +38,10 @@ const Layout = () => {
         <Route path='/UXReview' element={<UXReview />} />
         <Route path='/migratingLinear' element={<MigratingLinear />} />
         <Route path='/restfulApi' element={<RestfulApi />} />
+        <Route path='/digitalTransform' element={<DigitalTransform />} />
+        <Route path='/collaboration' element={<Collaboration />} />
+        <Route path='/javascriptFramework' element={<JavascriptFramework />} />
+        <Route path='/podcast' element={<Podcast />} />
         <Route path='/projectCalculator' element={<ProjectCalc formData={formData} setFormData={setFormData} />} />    
         <Route path='/calculatorSelectService' element={<CalculatorSelectService formData={formData} setFormData={setFormData} />} />
         <Route path='/calculatorStatusProject' element={<CalculatorStatusProject formData={formData} setFormData={setFormData} />} />
