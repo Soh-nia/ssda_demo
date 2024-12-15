@@ -17,7 +17,7 @@ const Team = () => {
                 </p>
             </div>
             
-            <div className="row row-cols-1 row-cols-md-3 py-5">                
+            <div className="row row-cols-1 row-cols-md-3 my-5">                
                 <div className="col p-2">
                     <div className="card p-3">
                         <div className='card-body'>
@@ -172,6 +172,13 @@ const Team = () => {
                         </div>                        
                     </div>
                 </div>
+
+                {/* <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+                </div> */}
             </div>
         </div>
     </>
